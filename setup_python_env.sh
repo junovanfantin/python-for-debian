@@ -2,11 +2,11 @@
 
 # Atualizando a lista de pacotes e o sistema
 echo "Atualizando sistema..."
-sudo apt update && sudo apt upgrade -y
+ apt update &&  apt upgrade -y
 
 # Instalando pacotes essenciais para Python
 echo "Instalando pacotes necessários..."
-sudo apt install -y python3 python3-pip python3-venv python3.11-venv python3-dev build-essential libssl-dev libffi-dev
+ apt install -y python3 python3-pip python3-venv python3.11-venv python3-dev build-essential libssl-dev libffi-dev
 
 # Verificando se o pacote python3-venv foi instalado corretamente
 if ! dpkg -l | grep -qw python3-venv; then

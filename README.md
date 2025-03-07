@@ -17,16 +17,17 @@ Passo a Passo da Instalação
 
 1️⃣ Baixe e Execute o Script
 
-Para executar a configuração automática, siga os passos abaixo:
-
+## 🚀 Como Usar
+```bash
 wget https://raw.githubusercontent.com/junovanfantin/python-for-debian/refs/heads/main/setup_python_env.sh
+
 chmod +x setup_python_env.sh
 ./setup_python_env.sh
-
+```
 Após a execução, o ambiente Python estará pronto para uso.
 
 
-Benefícios da Automação
+## 📌 Benefícios da Automação
 
 🔹 Redução de Erros: Automatiza tarefas repetitivas
 🔹 Padronização do Ambiente: Evita conflitos de versões
@@ -34,13 +35,23 @@ Benefícios da Automação
 🔹 Agilidade: Instalação rápida e sem necessidade de configuração manual
 
 Após rodar o script, basta ativar o ambiente sempre que necessário:
-
+```bash
 source ~/.python_env/bin/activate
+```
 
 Se precisar desativar, utilize:
-
+```bash
 deactivate
+```
 
-Conclusão
 
 A automação da configuração do ambiente Python no Debian 12 evita erros comuns e melhora a produtividade. Com esse script, qualquer desenvolvedor pode configurar um ambiente completo em poucos minutos.
+
+
+## 📜 Licença
+Este projeto é distribuído sob a licença MIT.
+
+
+## 👨‍💻 Autor
+Criado por **Junovan Fantin** e aprimorado por **Gemini 2.0 Flash**.
+

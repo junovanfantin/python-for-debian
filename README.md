@@ -10,12 +10,21 @@ Para facilitar esse processo, criamos um script Bash que automatiza a preparaç�
 Objetivo do Script
 
 ✔ Atualizar o sistema para garantir compatibilidade
+
 ✔ Instalar pacotes essenciais para Python
+
 ✔ Criar e configurar um ambiente virtual
+
 ✔ Evitar problemas com permissões do pip
+
+
+
+
+
+
 Passo a Passo da Instalação
 
-1️⃣ Baixe e Execute o Script
+1. Baixe
 
 ## 🚀 Como Usar
 ```bash
@@ -24,7 +33,9 @@ wget https://raw.githubusercontent.com/junovanfantin/python-for-debian/refs/head
 chmod +x setup_python_env.sh
 ./setup_python_env.sh
 ```
-Após a execução, o ambiente Python estará pronto para uso.
+2. Execute o Script
+  
+   Após a execução, o ambiente Python estará pronto para uso.
 
 
 ## 📌 Benefícios da Automação

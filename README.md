@@ -24,9 +24,11 @@ Objetivo do Script
 
 Passo a Passo da Instalação
 
-1. Baixe
 
 ## 🚀 Como Usar
+
+1. Baixe
+   
 ```bash
 wget https://raw.githubusercontent.com/junovanfantin/python-for-debian/refs/heads/main/setup_python_env.sh
 

@@ -19,7 +19,7 @@ Passo a Passo da Instalação
 
 Para executar a configuração automática, siga os passos abaixo:
 
-wget https://github.com/junovanfantin/python-for-debian/setup_python_env.sh
+wget https://raw.githubusercontent.com/junovanfantin/python-for-debian/refs/heads/main/setup_python_env.sh
 chmod +x setup_python_env.sh
 ./setup_python_env.sh
 

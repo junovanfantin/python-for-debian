@@ -53,9 +53,13 @@ deactivate
 ## 📌 Benefícios da Automação
 
 🔹 Redução de Erros: Automatiza tarefas repetitivas
+
 🔹 Padronização do Ambiente: Evita conflitos de versões
+
 🔹 Segurança: Impede uso indevido do pip sem um ambiente virtual
+
 🔹 Agilidade: Instalação rápida e sem necessidade de configuração manual
+
 
 
 

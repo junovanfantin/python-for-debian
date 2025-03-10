@@ -35,6 +35,7 @@ wget https://raw.githubusercontent.com/junovanfantin/python-for-debian/refs/head
 
 2. Execute o Script
 ```bash
+sudo su
 chmod +x setup_python_env.sh
 ./setup_python_env.sh
 ```
